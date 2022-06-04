@@ -3,7 +3,7 @@
 ## 1.Question：
 In lecture we define the length of a path to be the sum of the lengths of its edges. Define the bottleneck of a path to be the maximum length of one of its edges. A mininum-bottleneck path between two vertices s and t is a path with bottleneck no larger than that of any other s−t path. Show how to modify Dijkstra’s algorithm to compute a minimum-bottleneck path between two given vertices. The running time should be 𝑂(𝑚log𝑛), as in lecture.
 
-本题为来自斯坦福算法课的一道算法题，同时也为山西大学计算机与信息技术学院研究生算法课中抛出的进阶算法思考题。
+本题为来自斯坦福算法课的一道算法题，同时也为山西大学研究生算法课中抛出的进阶算法思考题。
 
 ## 2.Definition：
  - 2.1 路径的长度为一条路径各边长度之和；
