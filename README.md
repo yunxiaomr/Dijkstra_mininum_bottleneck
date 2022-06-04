@@ -10,7 +10,7 @@ In lecture we define the length of a path to be the sum of the lengths of its ed
  - 2.4 要求：O(mlogn)
  
 ## 3.解决：
-#### 3.1时间复杂度的限制；
+#### 3.1 时间复杂度的限制；
 Dijkstra：O(mn)---> O(n^2) --->O(mlogn)(引入堆排)，因此本题要想保证O(mlogn)的复杂度，除了对边进行遍历外，还需要引入小顶堆。
 
 #### 3.2 bottleneck的限制；
