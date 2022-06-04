@@ -41,3 +41,10 @@ S-T两个之间的mininum-bottleneck路径为S-T之间带有最小bottleneck的�
 4 5 30   
 3 5 6   
 5 6 1   
+
+## Conference 
+https://github.com/LSijing/Algorithms-Stanford
+https://blog.asarkar.com/algorithms-design-analysis/hw-5-opt/
+https://github.com/aleksandrpak/solutions/tree/master/coursera/algorithms_design_and_analysis_part_1
+
+
