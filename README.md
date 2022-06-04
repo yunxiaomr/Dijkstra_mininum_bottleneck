@@ -1,15 +1,15 @@
 # Dijkstra_mininum_bottleneck
 
-## 1.问题：
+## 1.Question：
 In lecture we define the length of a path to be the sum of the lengths of its edges. Define the bottleneck of a path to be the maximum length of one of its edges. A mininum-bottleneck path between two vertices s and t is a path with bottleneck no larger than that of any other s−t path. Show how to modify Dijkstra’s algorithm to compute a minimum-bottleneck path between two given vertices. The running time should be 𝑂(𝑚log𝑛), as in lecture.
 
-## 2.定义：
+## 2.Definition：
  - 2.1 路径的长度为一条路径各边长度之和；
  - 2.2 路径的bottleneck为一条路径的各边中边的最大的length；
  - 2.3 S-T两个之间的mininum-bottleneck路径为S-T之间带有最小bottleneck的路径的长度；
  - 2.4 要求：O(mlogn)
  
-## 3.解决：
+## 3.Solution：
 #### 3.1 时间复杂度的限制；
 Dijkstra：O(mn)---> O(n^2) --->O(mlogn)(引入堆排)，因此本题要想保证O(mlogn)的复杂度，除了对边进行遍历外，还需要引入小顶堆。
 
@@ -32,19 +32,12 @@ S-T两个之间的mininum-bottleneck路径为S-T之间带有最小bottleneck的�
  - 3.5.2 min(𝑑𝑖𝑠𝑡(𝑣), bottleneck)
   保证拿到的值为bottleneck中的最小值，即为mininum_bottleneck;此时𝑑𝑖𝑠𝑡(𝑣)记录的是当前两节点之间的bottleneck值，然后通过不断的迭代，最终走到目标节点。
   
-## 4.样例：
-6 7
-
-1 2 3
-
-2 3 2
-
-1 3 30
-
-3 4 20
-
-4 5 30
-
-3 5 6
-
-5 6 1
+## 4.Data Example：
+6 7   
+1 2 3   
+2 3 2   
+1 3 30   
+3 4 20   
+4 5 30   
+3 5 6   
+5 6 1   
